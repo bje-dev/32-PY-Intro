@@ -1,0 +1,14 @@
+import math
+
+
+print(round(1.3))#rounded number
+print(round(1.7))
+print(round(1.5))
+print(abs(-77))#absolute number
+print(abs(55))
+
+print(math.ceil(1.1))
+print(math.floor(1.9999))
+print(math.isnan(23))
+print(math.pow(10,3))#Power function
+print(math.sqrt(9))#squared root function
