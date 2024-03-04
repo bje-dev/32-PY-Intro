@@ -19,7 +19,21 @@ else:
 
 print(message)
 
-########### TERNARY ##########
+########### IF TERNARY ##########
 
 message = "Old person" if age > 54 else "Young person"
 print(message)
+
+############## FOR ##############
+
+for age in range(5):
+    print(age)
+
+############ FOR ELSE ############
+search = 3
+for age in range(5):
+    if age == search:
+        print("Found", search)
+        break
+else:
+    print("Age not found")
