@@ -37,3 +37,37 @@ for age in range(5):
         break
 else:
     print("Age not found")
+
+############ ITERABLE ############
+
+#Iterable : range(5)
+#Lists
+#Tuples
+
+for char in "Python code":
+    print(char)
+
+######### NESTED LOOP ############
+
+# outer loop - inner loop
+for j in range(3):
+    for k in range(2):
+        print(f"{j}, {k}")
+
+############# WHILE ##############
+
+numberwhile = 1
+
+while numberwhile < 100:
+    print(numberwhile)
+    numberwhile *= 2
+
+command = ""
+while command.lower() != "exit":
+    command = input("$ ")
+    print(command)
+
+
+
+
+
