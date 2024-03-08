@@ -42,8 +42,8 @@ list2 = [5, 6]
 join = ["Hello", *list1, "My", *list2, "Name"]
 print(join)
 
-point1 ={"x": 19}
-point2 ={"y": 15}
+point1 = {"x": 19}
+point2 = {"y": 15}
 
 newpoint = {**point1, **point2}
 print(newpoint)
